@@ -1,6 +1,6 @@
 # [MIT License](https://benchx.io/license/third-party/MIT)
 
-Copyright (c) Distributed Webs Project, LLC. <legal@distributedwebs.org>
+Copyright (c) Distributed Webs Project, LLC. <legal@distributedwebs.org>><br>
 Copyright (c) 2017 Mathias Buus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
