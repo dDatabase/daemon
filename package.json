@@ -1,0 +1,31 @@
+{
+  "name": "@ddatabase/daemon",
+  "version": "0.1.2",
+  "description": "dDatabase Daemon For Sharing Multiple dDrives and dDatabases At Once.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "ddbd": "./index.js"
+  },
+  "dependencies": {
+    "@ddatabase/vaultr": "ddatabase/vaultr#master",
+    "@dwcore/channel": "dwcore/channel#master",
+    "@ddns/core": "distdns/core#master",
+    "minimist": "^1.2.0",
+    "read-file-live": "^1.0.1",
+    "websocket-stream": "^5.0.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
