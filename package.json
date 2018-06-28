@@ -1,6 +1,6 @@
 {
   "name": "@ddatabase/daemon",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "dDatabase Daemon For Sharing Multiple dDrives and dDatabases At Once.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@ddatabase/vaultr": "ddatabase/vaultr#master",
-    "@ddns/core": "distdns/core#master",
+    "@dwebs/dns": "distributedweb/dns#master",
     "@dwcore/channel": "dwcore/channel#master",
     "minimist": "^1.2.0",
     "read-file-live": "^1.0.1",

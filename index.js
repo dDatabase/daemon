@@ -2,7 +2,7 @@
 
 process.title = 'ddbd'
 
-var dwebDns = require('@ddns/core')()
+var dwebDns = require('@distdns/core')()
 var wss = require('websocket-stream')
 var vaultr = require('@ddatabase/vaultr')
 var flock = require('ddb-vaultr/flock')
